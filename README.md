@@ -47,16 +47,7 @@ This is a poker bot designed for automatic play in online poker rooms. It uses S
 
    The bot automatically installs the necessary Chrome WebDriver using `chromedriver-autoinstaller`, so there's no need to manually download it.
 
-4. **Configure Your Bot**
-
-   - Edit the `password` variable in the script to include your poker account login credentials.
-   - Optionally, adjust the `risk_value` to change the bot's risk tolerance.
-   
-   ```python
-   password = "yourpasswordhere"
-   ```
-
-5. **Run the Bot**
+4. **Run the Bot**
 
    To start the bot, run the main Python script:
 
@@ -97,7 +88,7 @@ These hands are used in simulations to calculate the bot's odds and decide its a
 
 ## Simulations
 
-The bot uses a poker simulator (e.g., `simulator3.py`) to calculate hand probabilities. These simulations are based on the number of players at the table and the community cards that have been dealt.
+The bot uses its own poker simulator (e.g., `simulator3.py`) to calculate hand probabilities. These simulations are based on the number of players at the table and the community cards that have been dealt.
 
 ## Files
 
